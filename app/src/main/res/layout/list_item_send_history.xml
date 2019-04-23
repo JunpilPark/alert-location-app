@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="전송일자"/>
+        <TextView
+            android:id="@+id/txt_send_datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0000-00-00 AM07:00"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/img_in_out_type_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_in_arr"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="전송코드"/>
+        <TextView
+            android:id="@+id/txt_send_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="장소명"/>
+        <TextView
+            android:id="@+id/txt_place_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="직장"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="받은번호"/>
+        <TextView
+            android:id="@+id/txt_receiver_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="010-0000-0000
+            010-1111-1111"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="보낸내용"/>
+        <TextView
+            android:id="@+id/txt_send_contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="블라블라 블라블라"/>
+    </LinearLayout>
+</LinearLayout>
+
+<!--
+보낸일자
+아이콘, 장소명
+보낸번호
+내용
+-->

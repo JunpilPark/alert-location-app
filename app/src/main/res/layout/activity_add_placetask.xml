@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/titlebar">
+    </include>
+
+    <TextView
+        android:id="@+id/txt_head_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="각 단계 제목"
+        style="@style/step_info_title_view_style"/>
+
+    <LinearLayout
+        android:id="@+id/info_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_blit" />
+
+            <TextView
+                android:id="@+id/txt_info_line_1"
+                style="@style/info_text_view_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/head_info_text_step1_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_blit" />
+
+            <TextView
+                android:id="@+id/txt_info_line_2"
+                style="@style/info_text_view_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/head_info_text_step1_2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+     <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="vertical" >
+
+      </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_back_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back_step"
+            android:layout_weight="1"
+            style="@style/base_button_color_style"/>
+        <Button
+            android:id="@+id/btn_next_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_step"
+            android:layout_weight="1"
+            style="@style/base_button_color_style"/>
+    </LinearLayout>
+</LinearLayout>

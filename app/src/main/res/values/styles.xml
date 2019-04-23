@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Title 바 없앰 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="info_text_view_style" parent="android:Widget.TextView">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textColor">@color/colorFontDark</item>
+    </style>
+
+    <style name="step_info_title_view_style" parent="android:Widget.TextView">
+        <item name="android:textSize">23dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textColor">@color/colorFontDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="base_button_color_style" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_base_drawble</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorPrimaryLight"
+        android:padding="8dp"
+        android:text="시간을 설정해주세요."/>
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/common_ok"
+            android:textSize="16dp"
+            style="@style/base_button_color_style"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/common_cancel"
+            android:textSize="16dp"
+            style="@style/base_button_color_style"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

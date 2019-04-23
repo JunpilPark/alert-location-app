@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/imng_alert_symbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/img_logout_sketch_in" />
+
+    <TextView
+        android:id="@+id/txt_alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="35dp"
+        android:textColor="@color/colorPrimaryLight"
+        android:text="000에 진입했습니다."
+        android:gravity="center_horizontal"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_confirm_alert"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txt_alert_off"
+        android:textSize="23dp"
+        style="@style/base_button_color_style"/>
+</LinearLayout>

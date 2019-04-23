@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#FFFDE7</color>
+    <color name="colorPrimary">#413f4c</color>
+    <color name="colorPrimaryDark">#211819</color>
+
+
+    <color name='colorPrimaryComplementary'>#FFFDE7</color>
+    <color name="colorPrimaryDarkComplementary">#fbf5ae</color>
+
+    <color name="colorSecondPrimaryLight">#598697</color>
+    <color name="colorSecondPrimary">#495c63</color>
+
+    <color name="colorAccent">#b14a43</color>
+
+    <color name="colorTextHint">#cccccccc</color>
+    <color name="corlorBaseBackground">#fafafa</color>
+    <color name="corlorBaseBackgroundTranslucent">#e0fafafa</color>
+
+
+    <color name="colorFontDark">#333333</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="white">#fafafa</color>
+
+    <drawable name="btn_base_drawble_color">#495c63</drawable>
+    <drawable name="btn_base_drawble_color_p">#598697</drawable>
+</resources>
