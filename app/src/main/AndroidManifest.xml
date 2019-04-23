@@ -51,10 +51,7 @@
 
         <service android:name=".service.PlaceTaskGPSCheckService"></service>
         <service android:name=".service.HandlerServcie"></service>
-
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6722539937913153~4831972431"/>
+        
     </application>
 
 </manifest>
